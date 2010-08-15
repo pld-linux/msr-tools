@@ -1,12 +1,12 @@
 Summary:	Utilities to read/write MSR CPU registers
 Summary(pl.UTF-8):	Narzędzia do odczytu i zapisu rejestrów MSR procesora
 Name:		msr-tools
-Version:	1.1.2
+Version:	1.2
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
 Source0:	ftp://ftp.kernel.org/pub/linux/utils/cpu/msr-tools/%{name}-%{version}.tar.bz2
-# Source0-md5:	2b15ee434624533a3bd412940bfdd6bc
+# Source0-md5:	309b6514992817d6b5ca8e3887be0f9b
 ExclusiveArch:	%{ix86} %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
